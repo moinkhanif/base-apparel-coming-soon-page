@@ -3,17 +3,24 @@
       /* padding:15px; */
       background-image: url("./images/bg-pattern-desktop.svg");
       background-size: 65%;
-      font-size: 16px;
-      
+      /* font-size: 16px; */
+      font-family: 'Josefin Sans', sans-serif;
     }
     body h1 {
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: unset;
+      
+      letter-spacing: 15px;
       
       word-wrap: break-word;
     }
     body h1 div:first-child {
-      color: hsl(0, 36%, 70%)
+      color: hsl(0, 36%, 70%);
+      font-weight: 300;
+    }
+    body p {
+        font-size: 1.2rem;
+        margin: 15px 0;
+        color: hsl(0, 36%, 70%);
+        line-height: 1.5rem;
     }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -27,6 +34,9 @@
           margin:-10px;
 
         }
+        #landing1 {
+            text-align: center;
+        }
         
       }
       @media screen and (min-width: 675px) {
@@ -34,7 +44,7 @@
           padding-left:10%;
         }
         body h1 {
-          font-size: 3vw;
+          font-size: 4vw;
         }
         #bannerImg {
           background: url(./images/hero-desktop.jpg) no-repeat right top; 
@@ -49,11 +59,16 @@
           float: left;
           display: inline-block;
           width: 50%;
-          margin-top: 20vh;
+          margin-top: 10vh;
         }
         footer {
           clear: both;
         }
+        .logo {
+            position: relative;
+            top: 3vh;
+        }
+        
 
 
       }
@@ -62,7 +77,5 @@
         padding: 20px;
         
       }
-      #landing1 {
-        
-        text-align: center;
-      }
+
+      
